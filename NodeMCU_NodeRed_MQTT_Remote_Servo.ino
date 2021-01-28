@@ -1,9 +1,9 @@
 /*
  * ==============================NODEMCU MQTT NODE-RED=================================
  * 
- * ===================================REMOTE REMOTE=======================================
+ * ===================================REMOTE SERVO=====================================
  * 
- * ==================================AANG RAPE'I=======================================
+ * ====================================AANG RAPE'I=====================================
  * 
  * ==================================27-01-2021========================================
  * 
@@ -19,8 +19,8 @@
 Servo myservo;
 int servo_pos = 0;
 //Setup WIFI
-const char*   ssid        = "MODEM"; //Nama SSID Wifi yang akan diakses!
-const char*   pass        = "tarungjaya"; //Password Wifi
+const char*   ssid        = "XXX"; //Nama SSID Wifi yang akan diakses!
+const char*   pass        = "XXX"; //Password Wifi
 
 //Setup MQTT broker
 const char*   mqtt_server = "broker.hivemq.com"; //Server MQTT/Broker
